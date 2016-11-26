@@ -57,8 +57,7 @@ function loadLoginForm () {
         request.onreadystatechange = function () {
           if (request.readyState === XMLHttpRequest.DONE) {
               // Take some action
-              alert('sample');
-              if (request.status === 200) {
+             if (request.status === 200) {
                   alert('User created successfully');
                   register.value = 'Registered!';
               } else {
