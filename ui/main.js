@@ -51,7 +51,7 @@ function loadLoginForm () {
     var register = document.getElementById('register_btn');
     register.onclick = function () {
         // Create a request object
-        alert('sampe');
+        alert('sample');
         var request = new XMLHttpRequest();
         
         // Capture the response and store it in a variable
